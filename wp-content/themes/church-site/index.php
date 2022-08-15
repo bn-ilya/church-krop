@@ -11,7 +11,7 @@
   
   <header class="header">
     <div class="container">
-      <div class="header__wrapper d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <div class="header__wrapper d-flex flex-wrap justify-content-center py-3 border-bottom">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
           <span class="fs-4">Церковь Кропоткина</span>
         </a>
@@ -25,5 +25,12 @@
     </div>
   </header>
 
+  <div class="intro vh-100">
+    <div class="container h-100">
+      <div class="intro__wrapper h-100 w-100 d-flex align-items-center">
+        <h1 class="text-light">Церковь города <br> Кропоткина</h1>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
