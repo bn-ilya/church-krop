@@ -1,0 +1,7 @@
+// 1. Зона кастомизации переменных
+$primary: #cbbc99;
+
+// 2. Подключение исходных файлов
+@import "../../../../bootstrap/scss/variables";
+@import "../../../../bootstrap/scss/mixins";
+@import "../../../../bootstrap/scss/utilities";

@@ -18,8 +18,8 @@
 
         <ul class="nav nav-pills">
           <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Главная</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Записи служений</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-dark">Записи служений</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-dark">Контакты</a></li>
         </ul>
       </div>
     </div>

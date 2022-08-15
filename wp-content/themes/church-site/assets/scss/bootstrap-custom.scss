@@ -1,0 +1,11 @@
+// Bootstrap-custom.scss
+// Файл с модифицированными стилями bootstrap для проекта
+
+// 1. Подключение функций
+@import "bootstrap-custom/core/function";
+
+// 2. Подключение переменных
+@import "bootstrap-custom/core/variables";
+
+// 3. Подключение остальных файлов
+@import "bootstrap-custom/core/other";
