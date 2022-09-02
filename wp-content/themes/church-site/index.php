@@ -25,12 +25,18 @@
     </div>
   </header>
 
-  <div class="intro vh-100">
+  <div class="intro">
     <div class="container h-100">
       <div class="intro__wrapper h-100 w-100 d-flex align-items-center">
-        <h1 class="text-light">Церковь города <br> Кропоткина</h1>
+        <div class="intro__body d-flex w-100 align-items-center justify-content-center">
+        <h1 class="text-light">Церковь города Кропоткина</h1>
+        </div>
       </div>
     </div>
+  </div>
+
+  <div class="main-about bg-primary">
+    hello
   </div>
 </body>
 </html>
