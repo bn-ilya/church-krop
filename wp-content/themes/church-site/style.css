@@ -11,4 +11,15 @@
   padding: 150px 0;
 }
 
+.main-about {
+  padding: 90px 0;
+}
+.main-about__desc {
+  max-width: 500px;
+}
+
+.main-slider {
+  padding: 90px 0;
+}
+
 /*# sourceMappingURL=style.css.map */
