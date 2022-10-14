@@ -29,6 +29,11 @@
 @import "../../../../bootstrap/scss/tooltip";
 @import "../../../../bootstrap/scss/popover";
 @import "../../../../bootstrap/scss/carousel";
+.carousel-img {
+    max-height: calc(100vh - 200px);
+    object-fit: cover;
+    object-position: top;
+}
 @import "../../../../bootstrap/scss/spinners";
 @import "../../../../bootstrap/scss/offcanvas";
 

@@ -1,0 +1,32 @@
+.nav-link {
+    transform: translateY(2px);
+}
+
+.nav-link.active {
+    color: var(--bs-gray-900);
+}
+
+.nav-link.active::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 7px;
+    transform: translateX(-50%);
+
+    width: calc(20px + 100% - 80%);
+    height: 0.8px;
+    background-color: var(--bs-gray-900);
+}
+
+@media only screen and (max-width: 768px){
+    .nav-link {
+        padding: 0.5rem 0.7rem !important;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .nav-link {
+        padding: 0.5rem 1rem !important;
+        font-size: 14px;
+    }
+}

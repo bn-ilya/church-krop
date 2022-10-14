@@ -1,3 +1,20 @@
 .main-slider {
     padding: 90px 0;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__list {
+        width: 100%;
+        padding: 20px 0;
+        background-color: red;
+    }
+
+    &__content {
+        width: 100%;
+        display: flex;
+        
+        background-color: blue;
+    }
 }

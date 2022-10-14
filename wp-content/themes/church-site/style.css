@@ -1,7 +1,28 @@
 .header {
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
-  background-color: #f8f9fa;
+  z-index: 9999;
+  background-color: white;
+}
+.header__inner {
+  position: relative;
+}
+.header__logo-wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+}
+.header__logo {
+  width: 17px;
+  height: 17px;
+  color: var(--bs-dark);
+}
+.header__logo-title {
+  font-size: 16px;
+  font-weight: 500;
+  transform: translateY(2px);
 }
 
 .intro {
@@ -9,8 +30,53 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 150px 0;
+  height: 100vh;
+}
+.intro__logo {
+  width: 40px;
+  height: 40px;
+  color: var(--bs-light);
+}
+.intro__title {
+  font-size: 50px;
+  transform: translateY(5px);
+}
+.intro__subtitle {
+  font-size: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+  .intro__logo {
+    width: 35px;
+    height: 35px;
+    color: var(--bs-light);
+  }
+  .intro__title {
+    font-size: 40px;
+    transform: translateY(5px);
+  }
+  .intro__subtitle {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .intro__logo {
+    width: 35px;
+    height: 35px;
+    color: var(--bs-light);
+  }
+  .intro__title {
+    max-width: 200px;
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 32px;
+    transform: translateY(5px);
+  }
+  .intro__subtitle {
+    display: none;
+    font-size: 17px;
+  }
+}
 .main-about {
   padding: 90px 0;
 }
@@ -20,6 +86,70 @@
 
 .main-slider {
   padding: 90px 0;
+}
+
+.p-block_xs {
+  padding: 60px 0;
+}
+.p-block_s {
+  padding: 90px 0;
+}
+
+.main-card {
+  flex: 1 1 50%;
+  padding: 40px;
+  border-radius: 8px;
+}
+.main-card__title {
+  margin-bottom: 20px;
+}
+.main-card__line {
+  height: 1px;
+  flex: 1 1 auto;
+  margin: 0 40px;
+}
+.main-card__secondary {
+  flex: 1 1 50%;
+  width: fit-content;
+}
+.main-card__main {
+  flex: 1 1 50%;
+}
+.main-card__picture {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+
+.nav-link {
+  transform: translateY(2px);
+}
+
+.nav-link.active {
+  color: var(--bs-gray-900);
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 7px;
+  transform: translateX(-50%);
+  width: calc(20px + 100% - 80%);
+  height: 0.8px;
+  background-color: var(--bs-gray-900);
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-link {
+    padding: 0.5rem 0.7rem !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .nav-link {
+    padding: 0.5rem 1rem !important;
+    font-size: 14px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

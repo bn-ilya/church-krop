@@ -6,6 +6,8 @@
 
 // 2. Подключение переменных
 @import "bootstrap-custom/core/variables";
+@import "bootstrap-custom/core/mixins";
+@import "bootstrap-custom/core/utilites";
 
 // 3. Подключение остальных файлов
 @import "bootstrap-custom/core/other";

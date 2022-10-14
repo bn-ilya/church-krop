@@ -6,11 +6,13 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /wordpress/
+RewriteBase /church-krop/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /wordpress/index.php [L]
+RewriteRule . /church-krop/index.php [L]
 </IfModule>
+
+php_value include_path '.;C:\xampp\php\PEAR;C:\xampp\htdocs\church-krop'
 
 # END WordPress

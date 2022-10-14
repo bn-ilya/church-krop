@@ -1,0 +1,30 @@
+.main-card {
+    flex: 1 1 50%;
+    padding: 40px;
+    border-radius: 8px;
+
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__line {
+        height: 1px;
+        flex: 1 1 auto;
+        margin: 0 40px;
+    }
+
+    &__secondary {
+        flex: 1 1 50%;
+        width: fit-content;
+    }
+
+    &__main{
+        flex: 1 1 50%;
+    }
+
+    &__picture {
+        width: 200px;
+        height: 200px;
+        background-color: black;
+    }
+}
